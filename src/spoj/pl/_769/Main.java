@@ -1,4 +1,5 @@
 package spoj.pl._769;
+//test exercise
 
 import java.util.Scanner;
 
