@@ -1,4 +1,4 @@
-package spoj.pl._769;
+package spoj.pl.easy._769;
 
 import static org.junit.jupiter.api.Assertions.*;
 

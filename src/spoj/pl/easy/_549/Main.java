@@ -1,4 +1,4 @@
-package spoj.pl._549;
+package spoj.pl.easy._549;
 //simple addition
 
 import java.util.Scanner;

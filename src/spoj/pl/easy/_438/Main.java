@@ -1,4 +1,4 @@
-package spoj.pl._438;
+package spoj.pl.easy._438;
 //prime numbers
 
 import java.util.Scanner;
