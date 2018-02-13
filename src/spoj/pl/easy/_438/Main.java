@@ -1,5 +1,6 @@
 package spoj.pl.easy._438;
 //prime numbers
+//square root algorithm
 
 import java.util.Scanner;
 

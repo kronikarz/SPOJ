@@ -1,5 +1,5 @@
 package spoj.pl.easy._1828;
-//sum of 3 integers
+//summation of 3 integers
 
 import java.util.Scanner;
 
