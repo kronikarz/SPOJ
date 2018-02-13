@@ -1,4 +1,5 @@
 package spoj.pl.easy._496;
+//Dwie cyfry silni
 
 import java.util.Scanner;
 
