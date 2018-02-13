@@ -6,7 +6,7 @@ package spoj.pl.easy._601;
 
 import java.util.Scanner;
 
-public class Main {
+public class NWD {
 
     public static void main(String[] args) {
 

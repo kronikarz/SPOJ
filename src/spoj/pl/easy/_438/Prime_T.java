@@ -4,7 +4,7 @@ package spoj.pl.easy._438;
 
 import java.util.Scanner;
 
-public class Main {
+public class Prime_T {
 
     public static void main(String[] args) {
 
