@@ -1,5 +1,6 @@
-package spoj.pl.easy._549;
-//simple addition
+package spoj.pl.easy.RNO_DOD_549;
+//Proste dodawnie
+//Simple addition
 
 import java.util.Scanner;
 

@@ -1,18 +1,21 @@
-package spoj.pl.easy._769;
-//test exercise
+package spoj.pl.easy.PTEST_769;
+//Zadanie probne
+//Test exercise
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main() throws IOException {
+
+        System.out.println("test");
 
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-
         String s;
+
         s = in.readLine();
         int a = Integer.parseInt(s);
         s = in.readLine();

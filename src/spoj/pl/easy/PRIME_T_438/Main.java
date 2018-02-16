@@ -1,13 +1,14 @@
-package spoj.pl.easy._438;
-//prime numbers
+package spoj.pl.easy.PRIME_T_438;
+//Liczby pierwsze
+//Prime numbers
 //square root algorithm
 
+//import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-//import java.util.Scanner;
 
-public class Prime_T {
+public class Main {
 
     public static void main(String[] args) throws IOException {
 
@@ -17,19 +18,14 @@ public class Prime_T {
 
         while (tests-- > 0) {
 
-            boolean prime = false;
-
             int number = Integer.parseInt(bufferedReader.readLine());
 
-            if (number < 2)
-                System.out.println("NIE");
-            else if (number == 2 || number == 3 || number == 5 || number == 7 || number == 11)
+            if (number == 2 || number == 3 || number == 5 || number == 7 || number == 11)
                 System.out.println("TAK");
-            else if (number % 2 == 0 || number % 3 == 0 || number % 5 == 0 || number % 7 == 0 || number % 11 == 0)
+            else if (number < 2 || number % 2 == 0 || number % 3 == 0 || number % 5 == 0 || number % 7 == 0 || number % 11 == 0)
                 System.out.println("NIE");
             else {
-                prime = true;
-
+                boolean prime = true;
                 for (int j = 2; j * j <= number; j++) {
                     if (number % j == 0) {
                         System.out.println("NIE");
@@ -37,10 +33,9 @@ public class Prime_T {
                         break;
                     }
                 }
+                if (prime)
+                    System.out.println("TAK");
             }
-
-            if (prime)
-                System.out.println("TAK");
         }
     }
 }

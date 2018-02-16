@@ -1,5 +1,5 @@
-package spoj.pl.easy._1828;
-//summation of 3 integers
+package spoj.pl.easy.KC001_1828;
+//Dodawanie liczb calkowitych
 
 import java.util.Scanner;
 

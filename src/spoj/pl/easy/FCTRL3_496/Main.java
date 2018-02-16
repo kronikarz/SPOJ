@@ -1,9 +1,9 @@
-package spoj.pl.easy._496;
+package spoj.pl.easy.FCTRL3_496;
 //Dwie cyfry silni
 
 import java.util.Scanner;
 
-public class Factorial {
+public class Main {
 
     public static void main(String[] args) {
 

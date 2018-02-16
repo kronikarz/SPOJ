@@ -1,12 +1,11 @@
-package spoj.pl.easy._601;
+package spoj.pl.easy.PP0501A_601;
 //NWD - najwiekszy wspolny dzielnik
 //GCD - greatest common divisor
 //Euklides Algorithm
 
-
 import java.util.Scanner;
 
-public class NWD {
+public class Main {
 
     public static void main(String[] args) {
 
