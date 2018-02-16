@@ -1,12 +1,12 @@
 package spoj.pl.easy.PTEST_769;
 
 import org.junit.jupiter.api.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.*;
 
 public class MainTest {
-
     private final ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
     private final ByteArrayOutputStream errorStream = new ByteArrayOutputStream();
     private ByteArrayInputStream inputStream;
